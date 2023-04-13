@@ -56,8 +56,8 @@ For yaml-mode:
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `custom:pollenprognose-card`
 | region_desc | string | **Required** | Name of the region, is only used for display in header.
-| region_id | string | **Required** | The region id as [defined by DWD](https://opendata.dwd.de/climate_environment/health/alerts/Beschreibung_pollen_s31fg.pdf) (same as in DWD Pollenflug component).
-| allergens | list | **Required** | List of allergens for which you have sensors, also defined [here](https://opendata.dwd.de/climate_environment/health/alerts/Beschreibung_pollen_s31fg.pdf)
+| region_id | string | **Required** | The region id as [defined by DWD](https://opendata.dwd.de/climate_environment/health/alerts/Beschreibung_pollen_s31fg.pdf) (find Name from DWD Component and enter ID of it here)
+| allergens | list | **Required** | List of allergens for which you have sensors, defined at [hacs_dwd_pollenflug](https://github.com/mampfes/hacs_dwd_pollenflug)
 | title | boolean | **Optional** | Set to `false` to remove the heading from the card
 | show_state | boolean | **Optional** | Set to `false` if you don't want to show the state text under the images.
 | forecast | boolean | **Optional** | Set to `true` to see the forecast for tomorrow indicated with an additional smaller leaf.
