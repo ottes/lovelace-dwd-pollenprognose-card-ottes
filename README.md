@@ -2,7 +2,7 @@
 
 # pollenprognose-card-ottes
 
-A fork of the great work of [leahoswald's](https://github.com/leahoswald/) work on a card, but not publishing it to HACS. This is the finetuning and publishing, if he adopts this work some day, i will deprecate my work.
+A fork of the great work of [leahoswald's](https://github.com/leahoswald/) work on a card, but not useable with HACS. Here is the custom card, you could use.
 
 ## Origins
 
@@ -10,9 +10,11 @@ A Lovelace custom card for https://github.com/mampfes/hacs_dwd_pollenflug in Hom
 
 ## Installation
 
-The easiest way to install it is through HACS (Home Assistant Community Store), search for `Pollenprognose Card Ottes` in the Frontend section and install it (or another fork?).
+Not now, maybe future:The easiest way to install it is through HACS (Home Assistant Community Store), search for `Pollenprognose Card Ottes` in the Frontend section and install it (or another fork?).
 
-If you are not using HACS, you may download -ottes.js plus the images folder and put it into homeassistant_config_dir/www/community/lovelace-dwd-pollenprognose-card-ottes/ directory.
+For fow: Install this repo as Custom repo and search for `Pollen` on the frontent
+
+If you are NOT using HACS, you may download -ottes.js plus the images folder and put it into homeassistant_config_dir/www/community/lovelace-dwd-pollenprognose-card-ottes/ directory.
 
 ## Example usage
 Pick the allergens you want to display.
