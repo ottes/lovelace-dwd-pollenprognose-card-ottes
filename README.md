@@ -1,3 +1,5 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+
 # pollenprognose-card-ottes
 
 A fork of the great work of [leahoswald's](https://github.com/leahoswald/) work on a card, but not publishing it to HACS. This is the finetuning and publishing, if he adopts this work some day, i will deprecate my work.
