@@ -4,9 +4,9 @@
 
 A fork of the great work of [leahoswald's](https://github.com/leahoswald/) work on a card, but not publishing it to HACS. This is the finetuning and publishing, if he adopts this work some day, i will deprecate my work.
 
-```
+## Origins
+
 A Lovelace custom card for https://github.com/mampfes/hacs_dwd_pollenflug in Home Assistant based on the great work of https://github.com/isabellaalstrom/, https://github.com/isabellaalstrom/lovelace-pollenprognos-card and https://github.com/TekniskSupport.
-```
 
 ## Installation
 
