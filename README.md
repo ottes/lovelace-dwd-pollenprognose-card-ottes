@@ -8,19 +8,16 @@ A Lovelace custom card for https://github.com/mampfes/hacs_dwd_pollenflug in Hom
 
 ## Installation
 
-<b>Warning:</b> Remove other integrations, that use the same name pollenprognose-card, like leahoswald's one
+The easiest way to install it is through HACS (Home Assistant Community Store), search for `Pollenprognose Card Ottes` in the Frontend section and install it (or another fork?).
 
-
-The easiest way to install it is through HACS (Home Assistant Community Store), search for `Pollenprognose OttesFork` in the Frontend section and select `Pollenprogose Card OttesFork`.
-
-If you are not using HACS, you may download pollenprognose-card.js plus the images folder and put it into homeassistant_config_dir/www/community/lovelace-dwd-pollenprognose-card-ottesfork/ directory.
+If you are not using HACS, you may download -ottes.js plus the images folder and put it into homeassistant_config_dir/www/community/lovelace-dwd-pollenprognose-card-ottes/ directory.
 
 ## Example usage
 Pick the allergens you want to display.
 
 For ui-mode:
 ```yaml
-type: custom:pollenprognose-card
+type: custom:pollenprognose-card-ottes
 region_desc: Nordhessen und hess. Mittelgebirge
 region_id: 91
 allergens:
@@ -36,7 +33,7 @@ allergens:
 
 For yaml-mode:
 ```yaml
-- type: custom:pollenprognose-card
+- type: custom:pollenprognose-card-ottes
   region_desc: Oberrhein und unteres Neckartal
   region_id: 111
   allergens:
@@ -54,7 +51,7 @@ For yaml-mode:
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
-| type | string | **Required** | `custom:pollenprognose-card`
+| type | string | **Required** | `custom:pollenprognose-card-ottes`
 | region_desc | string | **Required** | Name of the region, is only used for display in header.
 | region_id | string | **Required** | The region id as [defined by DWD](https://opendata.dwd.de/climate_environment/health/alerts/Beschreibung_pollen_s31fg.pdf) (find Name from DWD Component and enter ID of it here)
 | allergens | list | **Required** | List of allergens for which you have sensors, defined at [hacs_dwd_pollenflug](https://github.com/mampfes/hacs_dwd_pollenflug)
